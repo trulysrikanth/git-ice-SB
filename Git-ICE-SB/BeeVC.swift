@@ -19,6 +19,9 @@ class BeeVC: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    @IBAction func handleClick(sender:UIButton){
+        print("I hae been clicked")
+    }
 
 
 }
