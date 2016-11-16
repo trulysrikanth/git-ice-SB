@@ -16,6 +16,7 @@ class EhVC: UIViewController {
         super.viewDidLoad()
         print("Help-B")
         // Do any additional setup after loading the view, typically from a nib.
+        print("Help-A")
     }
 
     override func didReceiveMemoryWarning() {
